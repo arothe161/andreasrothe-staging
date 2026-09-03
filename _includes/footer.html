@@ -1,0 +1,8 @@
+<footer id="global-footer">
+  <span>© {{ site.time | date: "%Y" }} {{ site.data[page.lang].footer_name }}</span>
+  <span>
+    <a href="{{ page.lang == 'de' ? '/impressum/' : '/en/impressum/' | relative_url }}">{{ site.data[page.lang].footer_impressum }}</a> &nbsp;·&nbsp;
+    <a href="{{ page.lang == 'de' ? '/datenschutz/' : '/en/datenschutz/' | relative_url }}">{{ site.data[page.lang].footer_privacy }}</a>
+  </span>
+</footer>
+<script>document.getElementById('year')?.textContent = new Date().getFullYear();</script>

@@ -1,0 +1,11 @@
+Einmalig im Terminal Windows PowerShell ausführen (im Ordner andreasrothe):
+
+git config alias.staging "!git push origin staging && git push staging-repo staging:main"
+
+Ab jetzt nur noch:
+
+git add .
+git commit -m "Kurze Beschreibung der Änderung"
+git staging
+
+Der neue Befehl git staging pusht automatisch zu beiden Remotes nacheinander.

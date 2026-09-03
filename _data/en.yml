@@ -1,0 +1,95 @@
+# Navigation
+nav_about: "About"
+nav_services: "Services"
+nav_testimonials: "Testimonials"
+nav_contact: "Contact"
+nav_lang: "DE"
+nav_lang_url: "/"
+nav_lang_flag: "/assets/icons/flag-de.svg"
+nav_lang_title: "Switch to the German version"
+
+# Hero
+hero_eyebrow: "Certified Systemic Coach · for individuals, businesses and public-sector organisations"
+hero_title_line1: "Leadership Coaching · Interim Leadership · Teaching"
+hero_title_em: ""
+hero_title_line2: ""
+hero_sub: "I prepare leaders, founders and teams in businesses and public-sector organisations to make clear decisions, lead transformation and act sustainably."
+hero_cta: "Book an introductory call"
+hero_stat_num: "15+"
+hero_stat_label: ""
+hero_image_label: "Years of leadership experience at Zalando, Redcare (Shop Apotheke) and Mister Spex."
+
+# About
+about_label: "About"
+about_title_line1: "Clarity through"
+about_title_em: "Experience."
+about_p1: "As an experienced leader in fast-growing technology companies, I know the operational and strategic challenges of leadership from first-hand experience."
+about_p2: "Combined with my training as a systemic coach, I bring together business understanding and systemic coaching expertise. Not theoretical textbook knowledge, but a trusted sparring partner at eye level."
+about_p3: "I support emerging and experienced leaders in strengthening their leadership impact, navigating complex interfaces and staying able to act and focused even in periods of high uncertainty."
+about_cred1_title: "Role"
+about_cred1_text: "15+ years of leadership experience at Zalando, Redcare and Mister Spex."
+about_cred2_title: "Focus"
+about_cred2_text: "Leadership, scaling and transformation"
+about_cred3_title: "Format"
+about_cred3_text: "In person in Berlin and remotely"
+about_cred4_title: "Languages"
+about_cred4_text: "German and English"
+
+# Services
+angebote_label: "Services"
+angebote_title_line1: ""
+angebote_title_em: ""
+
+angebot_1_title: "Leadership Coaching"
+angebot_1_desc: "Leadership coaching for founders and C-level leaders in start-ups, businesses and public-sector organisations; support in transformation processes; team workshops on New Work and collaboration."
+
+angebot_2_title: "Interim Leadership"
+angebot_2_desc: "Temporary leadership for analytics, product and cross-functional teams and organisations—such as parental-leave cover or when leadership capacity is needed at short notice."
+
+angebot_3_title: "Teaching"
+angebot_3_desc: "Guest lectureships and guest talks at universities on career planning, modern ways of working and transformation."
+
+angebot_link_more: "Learn more →"
+
+# Testimonials
+testi_label: "Testimonials"
+testi_title_line1: "Voices from our"
+testi_title_em: "collaboration."
+
+testi_1_quote: "“Andreas has a rare ability to get to the heart of complex leadership questions quickly. His insights have had a lasting impact on the way I lead.”"
+# testi_1_author: "Chief Product Officer"
+# testi_1_role: "B2B SaaS scale-up, Berlin"
+
+testi_2_quote: "“The combination of real leadership experience and systemic coaching was exactly what I needed. Extremely pragmatic and effective.”"
+# testi_2_author: "VP Engineering"
+# testi_2_role: "FinTech, London and Berlin"
+
+# Contact
+contact_label: "Contact"
+contact_title_line1: "Let’s start the"
+contact_title_em: "conversation."
+contact_p: "Arrange a no-obligation introductory call (30 minutes). We will discuss your current challenges and what working together could look like."
+contact_email_label: "Email"
+contact_email_val: "mail@andreas-rothe.de"
+contact_phone_label: "Phone"
+contact_phone_val: "+49 30 1234567"
+contact_location_label: "Location"
+contact_location_val: "Berlin and remote worldwide"
+
+contact_form_name: "Your name"
+contact_form_name_ph: "First and last name"
+contact_form_email: "Your email"
+contact_form_email_ph: "name@company.com"
+contact_form_topic: "Topic"
+contact_opt_1: "Leadership Coaching"
+contact_opt_2: "Interim Leadership"
+contact_opt_3: "Teaching"
+contact_opt_4: "Other"
+contact_form_msg: "Your message"
+contact_form_msg_ph: "What would you like to discuss?"
+contact_form_submit: "Send message"
+
+# Footer
+footer_name: "Andreas Rothe · Certified Systemic Coach"
+footer_impressum: "Legal notice"
+footer_privacy: "Privacy policy"

@@ -1,0 +1,202 @@
+---
+layout: default
+lang: en
+title: Andreas Rothe – Executive & Leadership Coach | AI Change Management | New Work Enablement
+description: Leadership Coaching, Fractional Leadership, Teaching
+permalink: /en/
+---
+
+{% assign t = site.data[page.lang] %}
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-text">
+    <p class="hero-eyebrow">{{ t.hero_eyebrow }}</p>
+    <h1 class="hero-title">
+      {{ t.hero_title_line1 }}<br>
+      <em>{{ t.hero_title_em }}</em> {{ t.hero_title_line2 }}
+    </h1>
+    <p class="hero-sub">
+      {{ t.hero_sub }}
+    </p>
+    <a href="#kontakt" class="btn-submit" style="text-decoration:none; display:inline-block;">{{ t.hero_cta }}</a>
+  </div>
+  <div class="hero-image">
+    <img
+	  src="{{ '/assets/road-to-success-web.webp' | relative_url }}"
+	  alt="Mountain road leading into the distance"
+	  class="hero-image-photo"
+    >
+  </div>
+</section>
+
+<!-- ANGEBOTE -->
+<section id="angebote">
+  <div class="angebote-header">
+    <h2 class="section-label">{{ t.angebote_label }}</h2>
+  <!--  <h3 class="section-title">
+      {{ t.angebote_title_line1 }}<br>
+      <em>{{ t.angebote_title_em }}</em>
+    </h3>-->
+  </div>
+  <div class="angebote-grid">
+    <div class="angebot-card">
+      <div>
+        <h3 class="angebot-title">{{ t.angebot_1_title }}</h3>
+        <p class="angebot-desc">
+          {{ t.angebot_1_desc }}
+        </p>
+      </div>
+      <a href="{{ '/en/leadership-coaching/' | relative_url }}" class="angebot-link">
+        {{ t.angebot_link_more }}
+      </a>
+    </div>
+    <div class="angebot-card">
+      <div>
+        <h3 class="angebot-title">{{ t.angebot_2_title }}</h3>
+        <p class="angebot-desc">
+          {{ t.angebot_2_desc }}
+        </p>
+      </div>
+      <a href="{{ '/en/leadership-coaching/#transformation' | relative_url }}" class="angebot-link">
+        {{ t.angebot_link_more }}
+      </a>
+    </div>
+    <div class="angebot-card">
+      <div>
+        <h3 class="angebot-title">{{ t.angebot_3_title }}</h3>
+        <p class="angebot-desc">
+          {{ t.angebot_3_desc }}
+        </p>
+      </div>
+      <a href="{{ '/en/leadership-coaching/#orientierung' | relative_url }}" class="angebot-link">
+        {{ t.angebot_link_more }}
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT ME -->
+<section id="ueber-mich">
+  <div class="about-label-col">
+    <h2 class="section-label">{{ t.about_label }}</h2>
+    <h3 class="section-title">
+      {{ t.about_title_line1 }}<br>
+      <em>{{ t.about_title_em }}</em>
+    </h3>
+  </div>
+  <div class="about-body">
+    <p>{{ t.about_p1 }}</p>
+    <p>{{ t.about_p2 }}</p>
+    <p>{{ t.about_p3 }}</p>
+    <div class="about-credentials">
+      <div class="credential">
+        <div class="credential-title">{{ t.about_cred1_title }}</div>
+        <div class="credential-text">{{ t.about_cred1_text }}</div>
+      </div>
+      <div class="credential">
+        <div class="credential-title">{{ t.about_cred2_title }}</div>
+        <div class="credential-text">{{ t.about_cred2_text }}</div>
+      </div>
+      <div class="credential">
+        <div class="credential-title">{{ t.about_cred3_title }}</div>
+        <div class="credential-text">{{ t.about_cred3_text }}</div>
+      </div>
+      <div class="credential">
+        <div class="credential-title">{{ t.about_cred4_title }}</div>
+        <div class="credential-text">{{ t.about_cred4_text }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="testi-header">
+    <h2 class="section-label">{{ t.testi_label }}</h2>
+    <h3 class="section-title">
+      {{ t.testi_title_line1 }}<br>
+      <em>{{ t.testi_title_em }}</em>
+    </h3>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card">
+      <p class="testi-quote">{{ t.testi_1_quote }}</p>
+      <div class="testi-author">
+        {{ t.testi_1_author }}
+        <span>{{ t.testi_1_role }}</span>
+      </div>
+    </div>
+    <div class="testi-card">
+      <p class="testi-quote">{{ t.testi_2_quote }}</p>
+      <div class="testi-author">
+        {{ t.testi_2_author }}
+        <span>{{ t.testi_2_role }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="kontakt">
+  <div class="kontakt-inner">
+    <div class="kontakt-text">
+      <h2 class="section-label">{{ t.contact_label }}</h2>
+      <h3 class="section-title">
+        {{ t.contact_title_line1 }}<br>
+        <em>{{ t.contact_title_em }}</em>
+      </h3>
+      <p>
+        {{ t.contact_p }}
+      </p>
+      <div class="kontakt-info">
+        <div class="kontakt-info-item">
+          <span class="kontakt-info-label">{{ t.contact_email_label }}</span>
+          <span class="kontakt-info-val"><a href="mailto:{{ t.contact_email_val }}" style="color:inherit; text-decoration:none;">{{ t.contact_email_val }}</a></span>
+        </div>
+        <div class="kontakt-info-item">
+          <span class="kontakt-info-label">{{ t.contact_phone_label }}</span>
+          <span class="kontakt-info-val"><a href="tel:{{ t.contact_phone_val | remove: ' ' }}" style="color:inherit; text-decoration:none;">{{ t.contact_phone_val }}</a></span>
+        </div>
+        <div class="kontakt-info-item">
+          <span class="kontakt-info-label">{{ t.contact_location_label }}</span>
+          <span class="kontakt-info-val">{{ t.contact_location_val }}</span>
+        </div>
+      </div>
+    </div>
+    <div class="kontakt-form">
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/danke">
+        <input type="hidden" name="form-name" value="contact">
+        <p style="display:none">
+          <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+        </p>
+        <div class="form-row">
+          <label class="form-label" for="name">{{ t.contact_form_name }}</label>
+          <input class="form-input" type="text" id="name" name="name" required placeholder="{{ t.contact_form_name_ph }}">
+        </div>
+        <div class="form-row">
+          <label class="form-label" for="email">{{ t.contact_form_email }}</label>
+          <input class="form-input" type="email" id="email" name="email" required placeholder="{{ t.contact_form_email_ph }}">
+        </div>
+        <div class="form-row">
+          <label class="form-label" for="thema">{{ t.contact_form_topic }}</label>
+          <select class="form-select" id="thema" name="thema">
+            <option value="Fuehrungskraefte-Coaching">{{ t.contact_opt_1 }}</option>
+            <option value="Transformation &amp; Change">{{ t.contact_opt_2 }}</option>
+            <option value="Orientierung &amp; Reflexion">{{ t.contact_opt_3 }}</option>
+            <option value="Sonstiges">{{ t.contact_opt_4 }}</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label class="form-label" for="nachricht">{{ t.contact_form_msg }}</label>
+          <textarea class="form-textarea" id="nachricht" name="nachricht" placeholder="{{ t.contact_form_msg_ph }}"></textarea>
+        </div>
+        <button class="btn-submit" type="submit">{{ t.contact_form_submit }}</button>
+      </form>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+# Jekyll configuration
+
+title: Andreas Rothe
+url: "https://andreas-rothe.de"
+baseurl: ""
+
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

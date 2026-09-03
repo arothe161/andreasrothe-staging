@@ -1,0 +1,54 @@
+<header>
+  <nav>
+    <a href="{% if page.lang == 'de' %}{{ '/' | relative_url }}{% else %}{{ '/en/' | relative_url }}{% endif %}" class="nav-logo">ANDREAS ROTHE</a>
+    
+    <button class="nav-toggle" id="navToggle" aria-label="Menue oeffnen" aria-expanded="false">
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+    </button>
+
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="{% if page.lang == 'de' %}{{ '/#angebote' | relative_url }}{% else %}{{ '/en/#angebote' | relative_url }}{% endif %}">{{ site.data[page.lang].nav_services }}</a></li>
+        <li><a href="{% if page.lang == 'de' %}{{ '/#ueber-mich' | relative_url }}{% else %}{{ '/en/#ueber-mich' | relative_url }}{% endif %}">{{ site.data[page.lang].nav_about }}</a></li>
+        <li><a href="{% if page.lang == 'de' %}{{ '/#testimonials' | relative_url }}{% else %}{{ '/en/#testimonials' | relative_url }}{% endif %}">{{ site.data[page.lang].nav_testimonials }}</a></li>
+        <li><a href="{% if page.lang == 'de' %}{{ '/#kontakt' | relative_url }}{% else %}{{ '/en/#kontakt' | relative_url }}{% endif %}">{{ site.data[page.lang].nav_contact }}</a></li>
+      </ul>
+
+      <div class="lang-switch">
+        {% if page.lang == 'de' %}
+          <a href="{{ '/en/' | relative_url }}" class="lang-icon-link" title="Switch to English version" aria-label="Switch to English version">
+            <img src="{{ '/assets/icons/flag-en.svg' | relative_url }}" alt="English" class="lang-flag-icon">
+          </a>
+        {% else %}
+          <a href="{{ '/' | relative_url }}" class="lang-icon-link" title="Zur deutschen Version wechseln" aria-label="Zur deutschen Version wechseln">
+            <img src="{{ '/assets/icons/flag-de.svg' | relative_url }}" alt="Deutsch" class="lang-flag-icon">
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </nav>
+  <script>
+    (function() {
+      var toggle = document.getElementById('navToggle');
+      var menu = document.getElementById('navMenu');
+      if (!toggle || !menu) return;
+      toggle.addEventListener('click', function() {
+        var isOpen = menu.classList.contains('open');
+        menu.classList.toggle('open', !isOpen);
+        toggle.classList.toggle('active', !isOpen);
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+        document.body.classList.toggle('nav-open', !isOpen);
+      });
+      menu.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', function() {
+          menu.classList.remove('open');
+          toggle.classList.remove('active');
+          toggle.setAttribute('aria-expanded', 'false');
+          document.body.classList.remove('nav-open');
+        });
+      });
+    })();
+  </script>
+</header>
