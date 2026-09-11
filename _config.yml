@@ -1,0 +1,27 @@
+# Jekyll configuration
+
+title: Andreas Rothe Coaching
+description: Coaching, Interim Leadership, Lehre
+url: "https://andreas-rothe.de"
+baseurl: ""
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Globale SEO-Einstellungen für jekyll-seo-tag
+seo:
+  type: Person
+  name: Andreas Rothe
+  logo: /assets/ar-coaching-logo.png
+  social:
+    name: Andreas Rothe
+    links:
+      - "https://www.linkedin.com/in/andreas-rothe-0ba15612b/" # optional
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

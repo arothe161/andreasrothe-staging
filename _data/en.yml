@@ -1,0 +1,96 @@
+# Navigation
+nav_about: "About"
+nav_services: "Services"
+nav_coaching: "Coaching Offers"
+nav_testimonials: "Testimonials"
+nav_contact: "Contact"
+nav_lang: "DE"
+nav_lang_url: "/"
+nav_lang_flag: "/assets/images/flag-de.svg"
+nav_lang_title: "Zur deutschen Version wechseln"
+
+# Hero
+hero_eyebrow: "15+ Years Leadership Experience · Certified Systemic Coach"
+hero_title_line1: "Coaching · Interim Leadership · Teaching"
+hero_title_em: ""
+hero_title_line2: ""
+hero_sub: "Coaching for individuals, companies and public-sector organisations. I support leaders, teams and founders in continuously learning, making clear decisions, leading successful transformation and acting sustainably."
+hero_cta: "Book an introductory conversation"
+hero_stat_num: "15+"
+# hero_stat_label: "Years of experience in leadership and scaling"
+hero_image_label: "Years of leadership experience at Zalando, Redcare (Shop Apotheke) and Mister Spex."
+
+# About
+about_label: "About"
+about_title_line1: "Clarity through"
+about_title_em: "experience."
+about_p1: "As a long-standing leader in fast-growing technology companies, I know the operational and strategic challenges of day-to-day leadership from first-hand experience."
+about_p2: "Combined with my training as a systemic coach, I bring together business understanding and systemic methodology. Not theoretical textbook knowledge, but a trusted sparring partner who meets you as an equal."
+about_p3: "I support new and experienced leaders in strengthening their leadership impact, managing complex interfaces and remaining capable of action and focused even in periods of high uncertainty."
+about_cred1_title: "Experience"
+about_cred1_text: "15+ years of leadership experience at Zalando, Redcare and Mister Spex."
+about_cred2_title: "Focus"
+about_cred2_text: "Leadership, scaling and transformation"
+about_cred3_title: "Format"
+about_cred3_text: "In person in Berlin and across DACH; remote worldwide"
+about_cred4_title: "Languages"
+about_cred4_text: "German and English"
+
+# Services
+angebote_label: "Services"
+angebote_title_line1: ""
+angebote_title_em: ""
+
+angebot_1_title: "Leadership Coaching"
+angebot_1_desc: "Leadership coaching for founders and C-suite executives in start-ups, companies and public-sector organisations; support through transformation processes; team workshops on New Work and collaboration."
+
+angebot_2_title: "Interim Leadership"
+angebot_2_desc: "Temporary leadership of analysts, product teams and cross-functional teams and organisations — as parental-leave cover, fractional leadership or when leadership capacity is needed quickly."
+
+angebot_3_title: "Teaching"
+angebot_3_desc: "Guest lectureships and talks at universities on career planning, modern ways of working and transformation."
+
+angebot_link_more: "Learn more →"
+
+# Testimonials
+testi_label: "Testimonials"
+testi_title_line1: "What clients say about"
+testi_title_em: "working together."
+
+testi_1_quote: "“Andreas has the rare ability to get to the heart of complex leadership questions quickly. His perspectives have had a lasting impact on my leadership approach.”"
+testi_1_author: ""
+testi_1_role: ""
+
+testi_2_quote: "“The combination of genuine leadership experience and systemic coaching was exactly what I needed. Extremely pragmatic and effective.”"
+testi_2_author: ""
+testi_2_role: ""
+
+# Contact
+contact_label: "Contact"
+contact_title_line1: "Let’s start a"
+contact_title_em: "conversation."
+contact_p: "Book a no-obligation introductory conversation (30 minutes). We will discuss your current challenges and what working together could look like."
+contact_email_label: "Email"
+contact_email_val: "mail@andreas-rothe.de"
+contact_phone_label: "Phone"
+contact_phone_val: "+49 30 1234567"
+contact_location_label: "Location"
+contact_location_val: "Berlin, Germany and remote worldwide"
+
+contact_form_name: "Your name"
+contact_form_name_ph: "First and last name"
+contact_form_email: "Your email"
+contact_form_email_ph: "name@company.com"
+contact_form_topic: "Topic"
+contact_opt_1: "Coaching & Workshops"
+contact_opt_2: "Interim Leadership"
+contact_opt_3: "Teaching"
+contact_opt_4: "Other"
+contact_form_msg: "Your message"
+contact_form_msg_ph: "How can I help you?"
+contact_form_submit: "Send message"
+
+# Footer
+footer_name: "Andreas Rothe · Executive & Leadership Coach"
+footer_impressum: "Legal Notice"
+footer_privacy: "Privacy Policy"

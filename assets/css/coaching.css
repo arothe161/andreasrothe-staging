@@ -1,0 +1,84 @@
+/* Ausschließlich Coaching-Seiten: Hero-Bild ohne Rahmen */
+.coaching-page .hero-image,
+.coaching-page .hero-image.hero-image--photo {
+  background: transparent !important;
+  border: 0 !important;
+  outline: 0 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  overflow: hidden;
+}
+
+/* Der Rahmen kann als dekoratives Pseudo-Element erzeugt werden */
+.coaching-page .hero-image::before,
+.coaching-page .hero-image::after {
+  content: none !important;
+  display: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Das eigentliche Bild darf ebenfalls keinen Rahmen/Schatten tragen */
+.coaching-page .hero-image > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Desktop und Tablet */
+@media (min-width: 901px) {
+  .coaching-page .lp-split-section:first-of-type {
+    align-items: stretch;
+  }
+
+  .coaching-page .hero-image.hero-image--photo {
+    height: auto !important;
+    max-height: none !important;
+    align-self: stretch;
+  }
+
+  .coaching-page .hero-image.hero-image--photo > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Mobil bis einschließlich 900 px: Bildhöhe 200 px */
+@media (max-width: 900px) {
+  /* Hero-Sektion ohne seitlichen Außenraum, aber mit geringem Abstand zum Header */
+  .coaching-page .lp-split-section:first-of-type {
+    padding-top: calc(var(--nav-h) + 1rem) !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Der Text bleibt lesbar eingerückt */
+  .coaching-page .lp-split-section:first-of-type .lp-split-text {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  /* Bild erscheint vor dem Text und ist mobil 200 px hoch */
+  .coaching-page .hero-image.hero-image--photo {
+    order: -1;
+    width: 100% !important;
+    height: 200px !important;
+    min-height: 200px !important;
+    max-height: 200px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .coaching-page .hero-image.hero-image--photo > img {
+    width: 100%;
+    height: 200px !important;
+    min-height: 200px !important;
+    max-height: 200px !important;
+    object-fit: cover;
+  }
+}
