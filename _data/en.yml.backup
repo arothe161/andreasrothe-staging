@@ -1,0 +1,95 @@
+# Navigation
+nav_about: "About"
+nav_services: "Services"
+nav_testimonials: "Testimonials"
+nav_contact: "Contact"
+nav_lang: "DE"
+nav_lang_url: "/"
+nav_lang_flag: "/assets/images/flag-de.svg"
+nav_lang_title: "Zur deutschen Version wechseln"
+
+# Hero
+hero_eyebrow: "Executive & Leadership Coach · Berlin & Remote"
+hero_title_line1: "Clarity in"
+hero_title_em: "Leadership"
+hero_title_line2: "& Growth"
+hero_sub: "I partner with executives, startup founders, and leadership teams to make clear decisions, lead transformations, and scale sustainably."
+hero_cta: "Book an intro call"
+hero_stat_num: "10+"
+hero_stat_label: "Years in Leadership & Scaling"
+hero_image_label: "Executive Coaching for founders, VP and C-Level."
+
+# Über mich
+about_label: "About Me"
+about_title_line1: "Clarity through"
+about_title_em: "Experience."
+about_p1: "As an executive coach and former VP at high-growth companies, I understand the challenges of leading in fast-paced, high-stakes environments firsthand."
+about_p2: "My coaching combines deep operational and scaling expertise with systemic coaching methods. No textbook advice – a trusted, thinking partner at eye level."
+about_p3: "I support you in sharpening your leadership presence, navigating complex organizational dynamics, and making confident decisions under uncertainty."
+about_cred1_title: "Background"
+about_cred1_text: "Former VP & Executive in high-growth companies"
+about_cred2_title: "Focus"
+about_cred2_text: "Leadership, Scaling, Transformation, Change"
+about_cred3_title: "Format"
+about_cred3_text: "Berlin on-site & Remote worldwide"
+about_cred4_title: "Languages"
+about_cred4_text: "German & English"
+
+# Angebote
+angebote_label: "Services"
+angebote_title_line1: "How We Can"
+angebote_title_em: "Work Together"
+
+angebot_1_title: "Executive & Leadership Coaching"
+angebot_1_desc: "1:1 coaching for executives, founders, and C-level. Leadership posture, strategic decisions, and personal effectiveness."
+
+angebot_2_title: "Transformation & Organizational Change"
+angebot_2_desc: "Guiding organizations through reorganization, scaling, or culture transformation. Clear structures and effective team dynamics."
+
+angebot_3_title: "Strategic Orientation & Sparring"
+angebot_3_desc: "Confidential sparring for strategic inflection points, executive career transitions, and role realignment."
+
+angebot_link_more: "Learn more →"
+
+# Testimonials
+testi_label: "Testimonials"
+testi_title_line1: "What Leaders"
+testi_title_em: "Say."
+
+testi_1_quote: "“Andreas has a rare ability to cut through operational noise and bring exceptional clarity to complex leadership challenges. His perspective made a lasting impact on how I lead.”"
+testi_1_author: "Chief Product Officer"
+testi_1_role: "B2B SaaS Scale-up, Berlin"
+
+testi_2_quote: "“The combination of real-world executive experience and systemic coaching questions made all the difference. Practical, inspiring, and completely eye-to-eye.”"
+testi_2_author: "VP Engineering"
+testi_2_role: "FinTech, London & Berlin"
+
+# Kontakt
+contact_label: "Contact"
+contact_title_line1: "Let’s Start the"
+contact_title_em: "Conversation."
+contact_p: "Book a complimentary, non-binding intro call (30 min). We discuss your current challenges and explore how we can work together."
+contact_email_label: "Email"
+contact_email_val: "mail@andreas-rothe.de"
+contact_phone_label: "Phone"
+contact_phone_val: "+49 30 1234567"
+contact_location_label: "Location"
+contact_location_val: "Berlin & Remote worldwide"
+
+contact_form_name: "Name"
+contact_form_name_ph: "Your Name"
+contact_form_email: "Email"
+contact_form_email_ph: "name@company.com"
+contact_form_topic: "Topic"
+contact_opt_1: "Executive Coaching"
+contact_opt_2: "Transformation & Change"
+contact_opt_3: "Strategic Sparring"
+contact_opt_4: "Other"
+contact_form_msg: "Message"
+contact_form_msg_ph: "What challenges or topics would you like to discuss?"
+contact_form_submit: "Send Message"
+
+# Footer
+footer_name: "Andreas Rothe · Executive & Leadership Coach"
+footer_impressum: "Legal Notice"
+footer_privacy: "Privacy Policy"

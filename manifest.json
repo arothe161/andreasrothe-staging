@@ -1,0 +1,23 @@
+{
+  "name": "Andreas Rothe Coaching",
+  "short_name": "Andreas Rothe",
+  "description": "Leadership coaching, interim leadership and teaching.",
+  "lang": "de",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}

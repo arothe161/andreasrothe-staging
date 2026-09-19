@@ -1,0 +1,29 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'de' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+
+  <!--
+    Falls dein Header per CSS auf "position: fixed" oder "sticky" gesetzt ist,
+    braucht der nachfolgende Inhalt einen passenden Abstand nach oben, damit
+    er nicht darunter verschwindet. Passe den Wert an die tatsächliche Höhe
+    deines Headers an (Standard-Navigationsleisten liegen meist zwischen
+    64px und 96px) — im Zweifel im Browser die Header-Höhe per Inspektor
+    nachmessen und hier eintragen.
+  -->
+  <main style="width: 100%; padding-top: 80px;">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

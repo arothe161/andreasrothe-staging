@@ -1,0 +1,25 @@
+# Erzwingt konsistente LF-Zeilenenden im Repository, unabhängig vom
+# Betriebssystem des jeweiligen Mitwirkenden (Windows/Mac/Linux). Git
+# normalisiert damit alle Textdateien beim Commit auf LF, ohne dass beim
+# Auschecken auf Windows eine CRLF-Umwandlung nötig ist — die Warnung
+# "This file uses 'LF' line endings, but Git is configured to convert
+# them to 'CRLF'..." verschwindet dadurch dauerhaft.
+#
+# Nach dem Hinzufügen dieser Datei einmalig ausführen, damit bereits
+# vorhandene Dateien im Repo ebenfalls normalisiert werden:
+#   git add --renormalize .
+#   git commit -m "Zeilenenden auf LF normalisieren"
+
+* text=auto eol=lf
+
+# Binärdateien explizit ausnehmen, damit Git sie nicht fälschlich als Text
+# behandelt und ihre Bytes verändert (das würde Bilder/Icons beschädigen).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
