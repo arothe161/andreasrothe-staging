@@ -1,0 +1,13 @@
+[build]
+  command = "bundle install && bundle exec jekyll build"
+  publish = "_site"
+
+[[headers]]
+  for = "/intern"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/intern/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"

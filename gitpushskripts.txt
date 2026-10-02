@@ -1,0 +1,32 @@
+Einmalig im Terminal Windows PowerShell ausführen (im Ordner andreasrothe):
+
+git config alias.staging "!git push origin staging && git push staging-repo staging:main"
+
+Ab jetzt reicht statt Schritt 2+3 nur noch:
+
+git add .
+git commit -m "Kurze Beschreibung der Änderung"
+git staging
+
+Der neue Befehl git staging pusht automatisch zu beiden Remotes nacheinander.
+
+-->Mit welchem befehl synchronisiere ich das mit meinen lokaln dateien?
+
+Wenn du Dateien direkt im Browser auf GitHub bearbeitet hast, ist das automatisch ein Commit auf dem jeweiligen Branch dort – lokal fehlt dir dieser Commit aber noch. Der Befehl dafür ist git pull.
+
+Konkret, je nachdem wo du editiert hast:
+
+Falls du im staging-Branch des Original-Repos editiert hast:
+
+git checkout staging
+git pull origin staging
+
+Falls du direkt im andreasrothe-staging-Repo (dem separaten Staging-Repo) editiert hast – z.B. die CNAME-Datei von vorhin – dann brauchst du das nur, falls du dieses Repo auch lokal geklont hast. Falls nicht, ist das nicht nötig, da du ja sowieso nur über git push staging-repo staging:main dorthin schreibst und nicht direkt darin arbeitest.
+
+Genereller Hinweis: Bevor du pullst, lohnt sich ein kurzer Check, auf welchem Branch du lokal gerade bist:
+
+git branch
+
+Der Branch mit dem Sternchen (*) davor ist dein aktueller. Stell sicher, dass er mit dem Branch übereinstimmt, den du im Browser bearbeitet hast – sonst pullst du in den falschen Branch bzw. bekommst eine Fehlermeldung.
+
+Falls du lokal noch nicht committete, ungespeicherte Änderungen hast, wird git pull das verweigern (um nichts zu überschreiben) – in dem Fall vorher entweder committen oder mit git stash zwischenspeichern.

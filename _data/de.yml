@@ -1,0 +1,143 @@
+# Navigation
+nav_about: "Über mich"
+nav_services: "Services"
+nav_coaching: "Coaching Angebote"
+nav_testimonials: "Referenzen"
+nav_contact: "Kontakt"
+nav_lang: "EN"
+nav_lang_url: "/en/"
+nav_lang_flag: "/assets/images/flag-en.svg"
+nav_lang_title: "Switch to English version"
+
+# Hero
+hero_eyebrow: "+15 Jahre Führungskraft und Systemischer Coach"
+hero_title_line1: "Executive Coaching · Interim Management · Lehre"
+hero_sub: "Coaching für Personalverantwortliche, Teamleitungen und Führungskräfte in Unternehmen und Behörden. Ich unterstütze Führungskräfte, Teams und Gründer dabei, kontinuierlich zu lernen, klare Entscheidungen zu treffen, erfolgreiche Transformationen zu führen und nachhaltig zu agieren."
+hero_cta: "Kennenlerngespräch vereinbaren"
+hero_stat_num: "15+"
+#hero_stat_label: "Jahre Erfahrung in Führung & Skalierung"
+hero_image_label: "Jahre Erfahrung in Führung bei Zalando, Redcare (Shop Apotheke) und Mister Spex."
+
+# Über mich
+about_label: "Über mich"
+about_title_line1: "Meine Erfahrung für"
+about_title_em: "Ihren Erfolg"
+about_p1: "Als langjährige Führungskraft in schnell wachsenden Technologieunternehmen kenne ich die Herausforderungen des operativen und strategischen Führungsalltags aus eigener Erfahrung."
+about_p2: "In Kombination mit der Weiterbildung als Systemischer Coach, verbinde ich unternehmerisches Verständnis mit systemischer Methodenkompetenz. Kein theoretisches Lehrbuchwissen, sondern ein vertrauensvoller Sparringspartner auf Augenhöhe."
+about_p3: "Ich unterstütze neue und erfahrene Führungskräfte, Ihre Führungswirkung zu stärken, komplexe Schnittstellen zu steuern und auch in Phasen hoher Unsicherheit handlungsfähig und fokussiert zu bleiben."
+about_cred1_title: "Erfahrung"
+about_cred1_text: "15+ Jahre Führungserfahrung, bei Zalando, Redcare und Mister Spex."
+about_cred5_title: "Coaching"
+about_cred5_text: "Weiterbildung Systemischer Coach (Institut für Bildungscoaching, 2026)"
+about_cred2_title: "Fokus"
+about_cred2_text: "Leadership, Skalierung, Transformation"
+about_cred3_title: "Format"
+about_cred3_text: "Berlin und DACH vor Ort & Remote weltweit"
+about_cred4_title: "Sprachen"
+about_cred4_text: "Deutsch & Englisch"
+
+# Angebote
+angebote_label: "Leistungen"
+angebote_title_line1: ""
+angebote_title_em: ""
+
+angebot_1_title: "Führungskräfte-Coaching"
+angebot_1_desc: "Coaching für Führungskräfte in Unternehmen und Behörden, Begleitung in Transformationsprozessen, Team-Workshops zu New Work und Zusammenarbeit."
+
+angebot_2_title: "Interim Management"
+angebot_2_desc: "Temporäres Management von Analysten, Product Teams und crossfunktionalen Teams oder Organisationen – als Elternzeitvertretung, Fractional Leadership oder wenn schnell Führungskapazität benötigt wird."
+
+angebot_3_title: "Lehre"
+angebot_3_desc: "Gastdozenturen und Gastvorträge an Hochschulen rund um Karriereplanung, moderne Arbeitsweisen und Transformation."
+
+angebot_1_link_more: "Mehr zum Coaching →"
+angebot_2_link_more: "Jetzt Gespräch vereinbaren →"
+angebot_3_link_more: "Anfrage Lehrangebot →"
+
+# Testimonials
+testi_label: "Referenzen"
+testi_title_line1: "Stimmen aus der"
+testi_title_em: "Zusammenarbeit."
+
+testi_1_quote: "„Andreas hat die seltene Gabe, schnell zum Kern komplexer Führungsfragen vorzudringen. Seine Impulse haben mein Führungsverhalten nachhaltig geprägt.“"
+#testi_1_author: "Chief Product Officer"
+#testi_1_role: "B2B SaaS Scale-up, Berlin"
+
+testi_2_quote: "„Die Kombination aus echter Führungserfahrung und systemischem Coaching war genau das, was ich gebraucht habe. Extrem pragmatisch und wirksam.“"
+#testi_2_author: "VP Engineering"
+#testi_2_role: "FinTech, London & Berlin"
+
+# Kontakt
+contact_label: "Kontakt"
+contact_title_line1: "Lassen Sie uns ins"
+contact_title_em: "Gespräch kommen."
+contact_p: "Vereinbaren Sie ein unverbindliches Erstgespräch (30 Min.). Wir besprechen Ihre aktuellen Herausforderungen und wie eine Zusammenarbeit aussehen kann."
+contact_email_label: "E-Mail"
+contact_email_val: "herr.rothe@t-online.de"
+contact_phone_label: "Telefon"
+contact_phone_val: "+49 176 45634567"
+contact_location_label: "Standort"
+contact_location_val: "Vor Ort in Berlin & Remote weltweit"
+
+contact_form_name: "Ihr Name"
+contact_form_name_ph: "Vor- und Nachname"
+contact_form_email: "Ihre E-Mail"
+contact_form_email_ph: "name@unternehmen.de"
+contact_form_topic: "Themenbereich"
+contact_opt_1: "Coaching und Training"
+contact_opt_2: "Interim Leadership"
+contact_opt_3: "Lehre"
+contact_opt_4: "Sonstiges"
+contact_form_msg: "Ihre Nachricht"
+contact_form_msg_ph: "Worum geht es in Ihrem Anliegen?"
+contact_form_submit: "Nachricht senden"
+
+contact_success_text: "Das hat geklappt! Ich werde mich in Kürze bei Ihnen melden."
+contact_success_close: "Schließen"
+contact_error: "Da ist etwas schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben sie direkt an herr.rothe@t-online.de."
+
+# Footer
+footer_name: "Andreas Rothe · Leadership Coach und Trainer"
+footer_impressum: "Impressum"
+footer_privacy: "Datenschutz"
+
+# Systembrett
+systembrett_eyebrow: "Virtuelle Systemische Aufstellungen"
+systembrett_title_line1: "Systembrett Online"
+systembrett_title_em: "kostenlos"
+systembrett_p1: "Führungsfragen, Rollenkonflikte oder Teamdynamiken lassen sich oft schwer in Worte fassen – auf dem virtuellen Systembrett werden sie räumlich erkennbar. Sie positionieren Figuren frei auf der Fläche, drehen ihre Blickrichtung und halten Zwischenstände fest, ohne dass ein physisches Brett vor Ort sein muss."
+systembrett_p2: "Praxiserprobt mit Einzelpersonen und Gruppen, funktioniert das Brett direkt im Browser: Figuren, Bodenformen und Notizen lassen sich anlegen, verschieben, skalieren und benennen – für die Aufstellung im Einzelsetting genauso wie begleitend in Präsenzsitzungen."
+systembrett_cta: "Direkt zum Systembrett →"
+systembrett_headline: "Systemische Aufstellung Online"
+
+# Coaching LP
+coaching_s1_title: "Führungskräfte-Coaching"
+coaching_s1_lead: "Klarheit, Wirkung und Souveränität in komplexen Führungssituationen für Führungskräfte in Start-ups, Unternehmen und Behörden."
+coaching_s1_p1: ""
+coaching_s1_p2: "Vertrauliche 1:1-Begleitung in dynamischen Wachstumsphasen, bei Rollenwechseln oder wenn sie in einer Sackgasse stecken. Wir reflektieren Führungsstile, stärken Entscheidungssicherheit und entwickeln pragmatische Lösungen für den Führungsalltag."
+coaching_s1_p3: "Ich helfe ihnen, ihr Kommunikationsbewusstsein durch Achtsamkeit und innere Führung zu stärken. Dadurch werden Spannungen abgebaut und die Grundlage für effektivere Mitarbeitergespräche gelegt, um eine sichere, positive Arbeitsatmosphäre zu fördern und Motivation, Zufriedenheit und das Selbstvertrauen der Mitarbeitenden nachhaltig verbessert."
+coaching_s1_cred1_title: "Zielgruppe"
+coaching_s1_cred1_text: "Führungskräfte, Abteilungsleitung, Nachwuchsführung"
+coaching_s1_cred2_title: "Format"
+coaching_s1_cred2_text: "6–12 Sitzungen à 60 Min., Präsenz in Berlin, DACH oder Online"
+coaching_s1_cta: "Erstgespräch anfragen"
+
+coaching_s2_title: "Coaching für Transformation, Change und Teamentwicklung"
+coaching_s2_lead: "Veränderungen strategisch gestalten und Teams wirksam mitnehmen."
+coaching_s2_p1: "Transformation gelingt nur, wenn Strategie, Kultur und operative Abläufe ineinandergreifen. Ich begleite Organisationen bei tiefgreifenden Restrukturierungen, agilen Übergängen und der Einführung von KI-gestützten Arbeitsweisen aus einer ganzheitlichen Führungsperspektive."
+coaching_s2_p2: "Gute Zusammenarbeit entsteht durch Vertrauen, psychologische Sicherheit und eine konstruktive Konfliktkultur. In maßgeschneiderten Workshops klären wir Rollen, etablieren transparente Feedbackprozesse und schaffen ein gemeinsames Verständnis für Ownership und Ergebnisse."
+coaching_s2_cred1_title: "Nutzen"
+coaching_s2_cred1_text: "Gesundes Wachstum, weniger Silos, zufriedenere Teams"
+coaching_s2_cred2_title: "Ansatz"
+coaching_s2_cred2_text: "Strukturiertes Change Management mit klaren Meilensteinen"
+coaching_s2_cta: "Transformationsberatung anfragen"
+
+coaching_s3_title: "Coaching für Digitalisierung & New Work in Organisationen und Behörden"
+coaching_s3_lead: "Reorganisation und digitale Transformation in Behörden und Unternehmen stellen oft eine besondere Herausforderung dar."
+coaching_s3_p1: "Klassische Führungsrollen werden nach und nach durch moderne Führungsmethoden ergänzt, deren Alltag von dynamischen Prozessen, Digitalisierung und KI geprägt ist. Die Anforderungen von <em>New Work</em> führen bei Führungskräften oft zu Unsicherheit. Typische Fragen: „Darf ich meinen Mitarbeitenden überhaupt noch sagen, was sie machen sollen, oder kommt das jetzt alles <em>bottom-up</em>?“. Oder: Wie setze ich agile Arbeitsweisen effektiv um?“"
+coaching_s3_p2: "Wir erarbeiten, welche Bedeutung Führung gerade während der Transition und in agilen Arbeitsumfeldern hat – angepasst an die individuelle Persönlichkeit und das aktuelle Arbeutssituation."
+coaching_s3_cred1_title: "Format"
+coaching_s3_cred1_text: "Offsites, Team-Workshops, 1–2 Tage, Retrospektiven"
+coaching_s3_cred2_title: "Nutzen"
+coaching_s3_cred2_text: "Starke Führung, leistungsstärkere und effiziente Teams."
+coaching_s3_cta: "Workshop anfragen"
