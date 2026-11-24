@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Ersatz für Tailwinds deaktiviertes globales preflight, aber sauber
+  eingegrenzt auf die Systembrett-Komponente. Dadurch verhält sich die
+  Komponente intern weiterhin vorhersehbar (box-sizing, keine Browser-
+  Standard-Margins auf Listen etc.), ohne Header/Footer/Navigation der
+  restlichen Jekyll-Seite zu beeinflussen.
+*/
+#systembrett-root, #systembrett-root *, #systembrett-root *::before, #systembrett-root *::after {
+  box-sizing: border-box;
+}
+
+#systembrett-root {
+  margin: 0;
+  padding: 0;
+}
+
+#systembrett-root button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+#systembrett-root input,
+#systembrett-root textarea {
+  font-family: inherit;
+}

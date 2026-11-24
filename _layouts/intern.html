@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ '/assets/css/intern.css' | relative_url }}">
+<div class="blog-container">
+  <p class="eyebrow"><a href="{{ '/intern/' | relative_url }}">Intern</a></p>
+  <h1 class="blog-title">{{ page.title }}</h1>
+  {% if page.subtitle %}<p class="blog-sub">{{ page.subtitle }}</p>{% endif %}
+  <div class="blog-body">
+    {{ content }}
+  </div>
+  <p class="blog-back"><a href="{{ '/intern/' | relative_url }}">← Zurück zur Übersicht</a></p>
+</div>

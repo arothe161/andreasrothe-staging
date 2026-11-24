@@ -1,0 +1,12 @@
+@media (max-width: 900px) {
+  .coaching-page .lp-split-section:first-of-type {
+    padding-top: calc(var(--nav-h) + 1rem) !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .coaching-page .lp-split-section:first-of-type .lp-split-text,
+  .coaching-page .lp-split-section:first-of-type .about-body {
+    padding-left: 6vw;
+    padding-right: 1.25rem;
+  }
+}
